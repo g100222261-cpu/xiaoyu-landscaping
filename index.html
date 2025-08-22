@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Xiaoyu Landscaping | Interlock · Retaining Walls · Patios · Steps · Sodding</title>
+  <meta name="description" content="Xiaoyu Landscaping — 20+ years in Ontario. Interlock, retaining walls, steps, patios, driveways, sodding. Call 647-302-0488 for a free quote." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌿</text></svg>">
+  <meta property="og:title" content="Xiaoyu Landscaping" />
+  <meta property="og:description" content="Interlock · Retaining Walls · Patios · Steps · Sodding across Ontario. Free quotes: 647-302-0488" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=1200&auto=format&fit=crop" />
+  <meta property="og:url" content="https://example.com" />
+  <meta name="theme-color" content="#0a7f4f" />
+
+  <style>
+    :root{
+      --bg:#0b0f13; --card:#111820; --muted:#9fb3c8; --text:#ecf1f6; --brand:#18a06b; --brand-2:#0bb4d3; --ring: 0 0 0 3px rgba(24,160,107,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:1200px;margin:0 auto;padding:24px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:14px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));backdrop-filter:blur(6px);box-shadow:0 6px 24px rgba(0,0,0,.25);cursor:pointer;transition:.2s ease;}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 10px 28px rgba(0,0,0,.35)}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),#22c983 60%,var(--brand-2));color:#041c12;font-weight:700}
+    .pill{display:inline-block;border:1px solid rgba(255,255,255,.12);padding:8px 12px;border-radius:999px;font-size:12px;letter-spacing:.3px;color:var(--muted)}
+    header{position:sticky;top:0;z-index:40;background:linear-gradient(180deg,rgba(11,15,19,.9),rgba(11,15,19,.6) 50%,rgba(11,15,19,0));backdrop-filter:blur(6px);}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    nav .brand{display:flex;align-items:center;gap:10px;font-weight:800}
+    nav .brand .logo{width:36px;height:36px;border-radius:12px;background:radial-gradient(120px 60px at 20% 10%,rgba(34,201,131,.9),rgba(11,180,211,.8),transparent 70%), linear-gradient(180deg,#0b5138,#0b0f13);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06), 0 8px 20px rgba(0,0,0,.35)}
+    nav .links{display:flex;gap:14px;flex-wrap:wrap}
+    nav .links a{padding:10px 12px;border-radius:10px;color:var(--muted)}
+    nav .links a:hover{background:rgba(255,255,255,.04);color:#e8eef5}
+    .hero{position:relative;min-height:72vh;display:grid;place-items:center;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:-20%;background:
+      radial-gradient(800px 400px at 20% 20%, rgba(11,180,211,.25), transparent 60%),
+      radial-gradient(600px 300px at 90% 10%, rgba(24,160,107,.25), transparent 60%),
+      radial-gradient(900px 500px at 60% 80%, rgba(34,201,131,.2), transparent 65%);
+      filter:blur(40px);z-index:0}
+    .hero-inner{position:relative;z-index:1;display:grid;gap:22px;text-align:center}
+    .headline{font-size:clamp(28px,5.5vw,56px);line-height:1.05;font-weight:900;letter-spacing:.2px}
+    .sub{color:var(--muted);font-size:clamp(14px,2.2vw,18px)}
+    .hero-cta{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+
+    .grid{display:grid;gap:18px}
+    .cards{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:linear-gradient(180deg,#0e151d,#0b0f13);border:1px solid rgba(255,255,255,.06);border-radius:18px;padding:18px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+    .card h3{margin:6px 0 6px;font-size:18px}
+    .muted{color:var(--muted)}
+
+    section{padding:64px 0}
+    .section-title{font-size:28px;margin:0 0 12px}
+
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .gallery img{border-radius:14px;border:1px solid rgba(255,255,255,.06)}
+
+    .testimonial{display:grid;gap:8px;background:linear-gradient(180deg,#0f1822,#0b0f13);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px}
+
+    .footer{padding:36px 0;border-top:1px solid rgba(255,255,255,.08);color:var(--muted)}
+
+    .lang{display:flex;gap:8px}
+    .lang button{border:1px solid rgba(255,255,255,.12);background:transparent;color:var(--muted);padding:8px 10px;border-radius:10px;cursor:pointer}
+    .lang button.active{border-color:var(--brand);color:#e8eef5;box-shadow:var(--ring)}
+
+    @media (max-width:640px){
+      .hero{min-height:64vh}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <div class="logo"></div>
+          <div>
+            <div style="font-size:18px">Xiaoyu Landscaping</div>
+            <div class="muted" style="font-size:12px">Ontario · Interlock · Retaining Walls</div>
+          </div>
+        </div>
+        <div class="links">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#work" data-i18n="nav.work">Work</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+          <div class="lang">
+            <button id="btn-en" class="active">EN</button>
+            <button id="btn-zh">中文</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="pill" data-i18n="pill.tag">20+ Years · Ontario Wide</span>
+        <h1 class="headline" data-i18n="hero.title">We build outdoor spaces that print <em>home value</em>.</h1>
+        <p class="sub" data-i18n="hero.sub">Interlock · Retaining Walls · Steps · Patios · Driveways · Sodding · Drainage · Grading</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="tel:+16473020488">📞 647‑302‑0488</a>
+          <a class="btn" href="#contact" data-i18n="cta.quote">Get a Free Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title" data-i18n="services.title">Services</h2>
+        <p class="muted" data-i18n="services.blurb">Full‑stack landscaping construction. We own our trucks, skid steers, and excavators for speed and control.</p>
+        <div class="grid cards">
+          <div class="card">
+            <h3>Interlock & Patios</h3>
+            <p class="muted" data-i18n="services.interlock">Driveways, walkways, and patios with proper base, compaction, and edge restraint.</p>
+          </div>
+          <div class="card">
+            <h3>Retaining Walls & Steps</h3>
+            <p class="muted" data-i18n="services.walls">Engineered walls, steps, and landings using concrete block or natural stone.</p>
+          </div>
+          <div class="card">
+            <h3>Sodding & Grading</h3>
+            <p class="muted" data-i18n="services.sod">Site prep, topsoil, sod install, grading and drainage solutions.</p>
+          </div>
+          <div class="card">
+            <h3>Repair & Re-level</h3>
+            <p class="muted" data-i18n="services.repair">Lift, re‑base, re‑level, polymeric sand, sealing and restoration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2 class="section-title" data-i18n="work.title">Recent Work</h2>
+        <div class="gallery">
+          <img alt="Patio" src="https://images.unsplash.com/photo-1523419412200-0f46f4e45b36?q=80&w=1200&auto=format&fit=crop" />
+          <img alt="Retaining wall" src="https://images.unsplash.com/photo-1595647477477-1d5a00201b45?q=80&w=1200&auto=format&fit=crop" />
+          <img alt="Walkway" src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?q=80&w=1200&auto=format&fit=crop" />
+          <img alt="Garden" src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=1200&auto=format&fit=crop" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">About Us</h2>
+        <div class="grid cards" style="grid-template-columns:1.4fr .8fr">
+          <div class="card">
+            <p data-i18n="about.copy">With over 20 years of hands‑on experience across Ontario, Xiaoyu Landscaping delivers durable, clean, code‑compliant outdoor builds. We specialize in interlock, retaining walls, steps, patios, and grading. We show up, finish fast, and stand behind our work.</p>
+            <ul class="muted">
+              <li data-i18n="about.point1">Fully equipped: Ford F‑550, Hino L7, skid steers, mini‑excavator.</li>
+              <li data-i18n="about.point2">Ontario‑wide service. Residential & light commercial.</li>
+              <li data-i18n="about.point3">Straight pricing. No drama. We clean up properly.</li>
+            </ul>
+          </div>
+          <div class="card testimonial">
+            <div>⭐️⭐️⭐️⭐️⭐️</div>
+            <div class="muted" data-i18n="about.review">“They rebuilt our sinking driveway and added a gorgeous front step. On time, on budget. Night‑and‑day difference.”</div>
+            <div>— J., Markham</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title">Contact</h2>
+        <div class="grid" style="grid-template-columns:1.1fr .9fr;gap:18px">
+          <div class="card">
+            <p class="muted" data-i18n="contact.copy">Call or message for a free on‑site quote. Fast response, honest scope.</p>
+            <p><strong>📞 647‑302‑0488</strong><br/>📧 <a href="mailto:quote@xiaoyulandscaping.com">quote@xiaoyulandscaping.com</a></p>
+            <div class="grid" style="grid-template-columns:repeat(2,minmax(0,1fr));gap:12px">
+              <a class="btn" href="tel:+16473020488">Call</a>
+              <a class="btn" href="sms:+16473020488">Text</a>
+              <a class="btn" href="mailto:quote@xiaoyulandscaping.com?subject=Quote%20Request">Email</a>
+              <a class="btn" href="#" onclick="alert('Add your WhatsApp link later (free).')">WhatsApp</a>
+            </div>
+          </div>
+          <div class="card">
+            <form action="mailto:quote@xiaoyulandscaping.com" method="post" enctype="text/plain">
+              <label>Name<br/><input name="name" required style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:var(--text)"/></label><br/><br/>
+              <label>Phone or Email<br/><input name="contact" required style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:var(--text)"/></label><br/><br/>
+              <label>Project Location<br/><input name="location" style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:var(--text)"/></label><br/><br/>
+              <label>Project Details<br/><textarea name="details" rows="5" style="width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:transparent;color:var(--text)"></textarea></label><br/><br/>
+              <button class="btn primary" type="submit" data-i18n="contact.send">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+      <div>© <span id="year"></span> Xiaoyu Landscaping</div>
+      <div class="muted">Ontario · Interlock · Retaining Walls · Patios · Steps · Sodding</div>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Simple i18n
+    const dict = {
+      en: {
+        'pill.tag': '20+ Years · Ontario Wide',
+        'nav.services':'Services','nav.work':'Work','nav.about':'About','nav.contact':'Contact',
+        'hero.title':'We build outdoor spaces that print <em>home value</em>.',
+        'hero.sub':'Interlock · Retaining Walls · Steps · Patios · Driveways · Sodding · Drainage · Grading',
+        'cta.quote':'Get a Free Quote',
+        'services.title':'Services',
+        'services.blurb':'Full‑stack landscaping construction. We own our trucks, skid steers, and excavators for speed and control.',
+        'services.interlock':'Driveways, walkways, and patios with proper base, compaction, and edge restraint.',
+        'services.walls':'Engineered walls, steps, and landings using concrete block or natural stone.',
+        'services.sod':'Site prep, topsoil, sod install, grading and drainage solutions.',
+        'services.repair':'Lift, re‑base, re‑level, polymeric sand, sealing and restoration.',
+        'work.title':'Recent Work',
+        'about.title':'About Us',
+        'about.copy':'With over 20 years of hands‑on experience across Ontario, Xiaoyu Landscaping delivers durable, clean, code‑compliant outdoor builds. We specialize in interlock, retaining walls, steps, patios, and grading. We show up, finish fast, and stand behind our work.',
+        'about.point1':'Fully equipped: Ford F‑550, Hino L7, skid steers, mini‑excavator.',
+        'about.point2':'Ontario‑wide service. Residential & light commercial.',
+        'about.point3':'Straight pricing. No drama. We clean up properly.',
+        'about.review':'“They rebuilt our sinking driveway and added a gorgeous front step. On time, on budget. Night‑and‑day difference.”',
+        'contact.title':'Contact',
+        'contact.copy':'Call or message for a free on‑site quote. Fast response, honest scope.',
+        'contact.send':'Send'
+      },
+      zh: {
+        'pill.tag': '20+年经验 · 安省全境',
+        'nav.services':'服务','nav.work':'案例','nav.about':'关于','nav.contact':'联系',
+        'hero.title':'把你的户外空间做成会“印钞”的资产。',
+        'hero.sub':'铺砖（Interlock）· 挡土墙 · 台阶 · 露台 · 车道 · 铺草皮 · 排水与整平',
+        'cta.quote':'免费上门报价',
+        'services.title':'服务内容',
+        'services.blurb':'自有车辆与设备，施工速度快、质量稳，成本更可控。',
+        'services.interlock':'车道/步道/露台铺砖，标准基底、夯实与边缘加固。',
+        'services.walls':'混凝土砌块或天然石的挡土墙、台阶与平台。',
+        'services.sod':'场地处理、表土、铺草皮、地面整平与排水。',
+        'services.repair':'铺砖返修、增厚换基、找平、加砂与封釉。',
+        'work.title':'近期案例',
+        'about.title':'关于我们',
+        'about.copy':'我们在安省一线施工 20+ 年，专注铺砖、挡土墙、台阶、露台与整平。按规范施工、干净利落、质量耐久，说到做到。',
+        'about.point1':'设备齐：F‑550、Hino L7、小铲车、小勾机等自有设备。',
+        'about.point2':'服务安省全境，住宅与轻商用项目。',
+        'about.point3':'报价直接，不忽悠，完工清场干净。',
+        'about.review':'“把我们下陷的车道重做了，还加了一个漂亮的前台阶。准时准价，效果天翻地覆。”',
+        'contact.title':'联系',
+        'contact.copy':'电话或短信联系，免费上门评估与报价，响应快、范围准。',
+        'contact.send':'发送'
+      }
+    };
+
+    const setLang = (lang) => {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const val = dict[lang][key];
+        if (val !== undefined) el.innerHTML = val;
+      });
+      document.getElementById('btn-en').classList.toggle('active', lang==='en');
+      document.getElementById('btn-zh').classList.toggle('active', lang==='zh');
+      localStorage.setItem('lang', lang);
+      document.documentElement.lang = lang === 'zh' ? 'zh-Hans' : 'en';
+      document.title = lang==='zh' ? '小鱼园艺 | 铺砖·挡土墙·露台·台阶·铺草皮' : 'Xiaoyu Landscaping | Interlock · Retaining Walls · Patios · Steps · Sodding';
+    };
+
+    document.getElementById('btn-en').onclick = () => setLang('en');
+    document.getElementById('btn-zh').onclick = () => setLang('zh');
+    setLang(localStorage.getItem('lang') || 'en');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Xiaoyu Landscaping",
+    "telephone": "+1-647-302-0488",
+    "areaServed": "Ontario, Canada",
+    "url": "https://yourdomain.com",
+    "logo": "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=400&auto=format&fit=crop",
+    "image": [
+      "https://images.unsplash.com/photo-1523419412200-0f46f4e45b36?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1595647477477-1d5a00201b45?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Interlock, retaining walls, patios, steps, sodding across Ontario.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
+    }
+  }
+  </script>
+</body>
+</html>
